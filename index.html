@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe</title>
+    <link rel="shortcut icon" href="./images/fevicon.png" type="image/x-icon" style="height: 40px;width: 40px;">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&family=Montserrat&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body onload="getOnLoad()">
+
+
+<!-- modal pop up for recipe instruction -->
+    <div id="overlay">
+        <i class="fa-solid fa-xmark close"></i>
+        <h1 id="meal-name">Hello</h1>
+        <div class="main">
+            <img id="meal-src" src="./images/bg-image.jpg" alt="Meal Image">
+            <div class="desc">
+                <h3 id="meal-category">Dish</h3>
+                <h3 id="meal-area">Dish</h3>
+                <h4 id="meal-ingredient">Ingredients :</h3>
+                    <ul class="list"></ul>
+            </div>
+        </div>
+        <h4>Instructions : </h4>
+        <p id="steps">Steps</p>
+
+    </div>
+
+
+    <div class="hero">
+
+        <h1>ForkFind</h1>
+
+        <h3>Search. Cook. Savor.</h3>
+        <div class="search">
+            <input type="text" id="searchText">
+            <div class="button-wrapper">
+                <button id="addFilter">Add Filters</button>
+
+                <div class="hidden" id="filterBox">
+                    <i class="fa-solid fa-xmark" id="close-filter"></i>
+                    <div class="options">
+                        <input type="checkbox" name="option" id="c" value="c"><label for="c"></label>Category : </label>
+                        <select name="c" id="categoryF"></select>
+                    </div>
+                    <div class="options">
+                        <input type="checkbox" name="option" id="a" value="a"><label for="a"></label>Area : </label>
+                        <select name="a" id="area"></select>
+                    </div>
+
+                    <div class="button-group">
+                        <button id="apply">Apply</button>
+                        <button id="cancel">Clear All</button>
+                    </div>
+                </div>
+
+                <button id="searchBtn">Search</button>
+                <button id="reset-all">Reset</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="spinner"></div>
+    <i id="refresh" class="fa-solid fa-rotate-right"></i></button>
+    <h2 id="no-of-recipes">Recipe Matches :</h2>
+    <!-- recipe container -->
+    <div class="recipe-container" style="display: none;">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
