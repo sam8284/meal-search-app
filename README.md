@@ -10,10 +10,10 @@
 This project was created to practice front-end development skills including responsive design, clean UI, and DOM manipulation. A key goal is to demonstrate API integration by fetching live recipe data from a public API using the Fetch API. The app handles real-time requests, displays a loading state, and gracefully manages network errors — offering a smooth user experience.
 
 
-## 🚀 Live Demo (Change)
+## 🚀 Live Demo 
 
-🔗 [View Live Site](www.google.com)
-(Change)
+🔗 [View Live Site](https://fork-find123.netlify.app/)
+
 
 
 ## 📦 Tech Stack 
@@ -44,7 +44,6 @@ This project uses the [TheMealDB API](https://www.themealdb.com/api.php) to fetc
 
 ## 📸 Preview
 
-Screen shots (Change)
 <p align="center">
   <img src="./assets/desktop.PNG" alt="Desktop" width="600" style="vertical-align: top;margin-top: 10px;" hspace="10"/>
   <img src="./assets/tablet.png" alt="Tablet" width="400" style="vertical-align: top;margin-top: 10px;" hspace="10"/>
@@ -99,7 +98,7 @@ open index.html
 
 ## 📬 Contact
 
-[![Email](https://img.shields.io/badge/Email-Contact%20Me-red?style=flat-square&logo=gmail)](mailto:saima.ansari8811@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-red?style=flat-square&logo=gmail)](mailto:saima.ansari8811@gmail.com?subject=Hello&body=I%20found%20your%20project%20interesting!)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/saima-ansari-developer/)
 
