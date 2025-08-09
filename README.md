@@ -1,5 +1,5 @@
 
- # 🍽️ Recipe Finder 
+ # 🍽️ ForkFind - Recipe Finder 
  ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![API](https://img.shields.io/badge/API-FETCH%2FJSON-6e6e6e?style=flat&logo=web&logoColor=white)
 
 **ForkFind** is a responsive web application that allows users to search and explore recipes by keywords or filters on category and area.It fetches real-time data from a public API and displays recipe details such as recipe name,images, ingredients, and instructions in a clean and user-friendly interface. Built using **HTML, CSS, and JavaScript**, this project focuses on **API integration**, DOM manipulation, and responsive design — without using any frameworks or libraries.
